@@ -522,7 +522,7 @@ export default function WidgetSidebar() {
             draggable
             onDragStart={(e) => handleDragStart(e, "text")}
             onClick={() => addWidget("text")}
-            className="w-full bg-blue-500 text-white p-1 mb-1 rounded hover:bg-blue-600 transition-colors duration-200 cursor-grab active:cursor-grabbing text-xs"
+            className="w-full bg-green-500 text-white p-2 mb-1 rounded hover:bg-green-600 transition-colors duration-200 cursor-grab active:cursor-grabbing text-xs"
           >
             Text Widget
           </button>
@@ -530,7 +530,7 @@ export default function WidgetSidebar() {
             draggable
             onDragStart={(e) => handleDragStart(e, "heading")}
             onClick={() => addWidget("heading")}
-            className="w-full bg-blue-600 text-white p-1 mb-1 rounded hover:bg-blue-700 transition-colors duration-200 cursor-grab active:cursor-grabbing text-xs"
+            className="w-full bg-green-600 text-white p-2 mb-1 rounded hover:bg-green-700 transition-colors duration-200 cursor-grab active:cursor-grabbing text-xs"
           >
             Heading Widget
           </button>
