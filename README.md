@@ -2,6 +2,7 @@
 
 A modern, responsive dashboard builder with drag-and-drop functionality, real-time collaboration, and customizable widgets. Built with React and Firebase for seamless data persistence and user authentication.
 
+##Mitesh
  ✨ Features
 
  🎨 Interactive Widget System
