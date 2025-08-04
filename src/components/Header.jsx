@@ -41,7 +41,7 @@ export default function Header() {
         {/* Logo/Brand - Left End */}
         <div className="flex items-center">
           <div className="flex-shrink-0">
-            <h1 className="text-2xl absolute left-200 font-bold text-gray-900 dark:text-white">
+            <h1 className="text-2xl font-bold text-gray-900 dark:text-white">
               Dashboard
             </h1>
           </div>

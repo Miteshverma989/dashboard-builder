@@ -596,7 +596,7 @@ export default function Canvas() {
       <div className="absolute bottom-4 right-4 z-10">
         <button
           onClick={clearCanvas}
-          className="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-lg shadow-lg transition-colors duration-200 flex items-center gap-2"
+          className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg shadow-lg transition-colors duration-200 flex items-center gap-2"
           title="Clear all widgets from canvas"
         >
           <svg
