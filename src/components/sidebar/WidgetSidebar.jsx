@@ -522,7 +522,7 @@ export default function WidgetSidebar() {
             draggable
             onDragStart={(e) => handleDragStart(e, "text")}
             onClick={() => addWidget("text")}
-            className="w-full bg-green-500 text-white p-2 mb-1 rounded hover:bg-green-600 transition-colors duration-200 cursor-grab active:cursor-grabbing text-xs"
+            className="w-full bg-cyan-500 text-white p-2 mb-1 rounded hover:bg-cyan-600 transition-colors duration-200 cursor-grab active:cursor-grabbing text-xs"
           >
             Text Widget
           </button>
@@ -530,7 +530,7 @@ export default function WidgetSidebar() {
             draggable
             onDragStart={(e) => handleDragStart(e, "heading")}
             onClick={() => addWidget("heading")}
-            className="w-full bg-green-600 text-white p-2 mb-1 rounded hover:bg-green-700 transition-colors duration-200 cursor-grab active:cursor-grabbing text-xs"
+            className="w-full bg-cyan-600 text-white p-2 mb-1 rounded hover:bg-cyan-700 transition-colors duration-200 cursor-grab active:cursor-grabbing text-xs"
           >
             Heading Widget
           </button>
@@ -543,7 +543,7 @@ export default function WidgetSidebar() {
             draggable
             onDragStart={(e) => handleDragStart(e, "chart")}
             onClick={() => addWidget("chart")}
-            className="w-full bg-green-500 text-white p-1 mb-1 rounded hover:bg-green-600 transition-colors duration-200 cursor-grab active:cursor-grabbing text-xs"
+            className="w-full bg-cyan-500 text-white p-2 mb-1 rounded hover:bg-cyan-600 transition-colors duration-200 cursor-grab active:cursor-grabbing text-xs"
           >
             Bar Chart
           </button>
@@ -551,7 +551,7 @@ export default function WidgetSidebar() {
             draggable
             onDragStart={(e) => handleDragStart(e, "lineChart")}
             onClick={() => addWidget("lineChart")}
-            className="w-full bg-green-600 text-white p-1 mb-1 rounded hover:bg-green-700 transition-colors duration-200 cursor-grab active:cursor-grabbing text-xs"
+            className="w-full bg-cyan-600 text-white p-2 mb-1 rounded hover:bg-cyan-700 transition-colors duration-200 cursor-grab active:cursor-grabbing text-xs"
           >
             Line Chart
           </button>
@@ -559,7 +559,7 @@ export default function WidgetSidebar() {
             draggable
             onDragStart={(e) => handleDragStart(e, "pieChart")}
             onClick={() => addWidget("pieChart")}
-            className="w-full bg-green-700 text-white p-1 mb-1 rounded hover:bg-green-800 transition-colors duration-200 cursor-grab active:cursor-grabbing text-xs"
+            className="w-full bg-cyan-700 text-white p-2 mb-1 rounded hover:bg-cyan-800 transition-colors duration-200 cursor-grab active:cursor-grabbing text-xs"
           >
             Pie Chart
           </button>
@@ -567,7 +567,7 @@ export default function WidgetSidebar() {
             draggable
             onDragStart={(e) => handleDragStart(e, "areaChart")}
             onClick={() => addWidget("areaChart")}
-            className="w-full bg-green-800 text-white p-1 mb-1 rounded hover:bg-green-900 transition-colors duration-200 cursor-grab active:cursor-grabbing text-xs"
+            className="w-full bg-cyan-800 text-white p-2 mb-1 rounded hover:bg-cyan-900 transition-colors duration-200 cursor-grab active:cursor-grabbing text-xs"
           >
             Area Chart
           </button>
@@ -580,7 +580,7 @@ export default function WidgetSidebar() {
             draggable
             onDragStart={(e) => handleDragStart(e, "table")}
             onClick={() => addWidget("table")}
-            className="w-full bg-purple-500 text-white p-1 mb-1 rounded hover:bg-purple-600 transition-colors duration-200 cursor-grab active:cursor-grabbing text-xs"
+            className="w-full bg-cyan-500 text-white p-2 mb-1 rounded hover:bg-cyan-600 transition-colors duration-200 cursor-grab active:cursor-grabbing text-xs"
           >
             Table
           </button>
@@ -588,7 +588,7 @@ export default function WidgetSidebar() {
             draggable
             onDragStart={(e) => handleDragStart(e, "counter")}
             onClick={() => addWidget("counter")}
-            className="w-full bg-purple-600 text-white p-1 mb-1 rounded hover:bg-purple-700 transition-colors duration-200 cursor-grab active:cursor-grabbing text-xs"
+            className="w-full bg-cyan-600 text-white p-2 mb-1 rounded hover:bg-cyan-700 transition-colors duration-200 cursor-grab active:cursor-grabbing text-xs"
           >
             Counter
           </button>
@@ -596,7 +596,7 @@ export default function WidgetSidebar() {
             draggable
             onDragStart={(e) => handleDragStart(e, "gauge")}
             onClick={() => addWidget("gauge")}
-            className="w-full bg-purple-700 text-white p-1 mb-1 rounded hover:bg-purple-800 transition-colors duration-200 cursor-grab active:cursor-grabbing text-xs"
+            className="w-full bg-cyan-700 text-white p-2 mb-1 rounded hover:bg-cyan-800 transition-colors duration-200 cursor-grab active:cursor-grabbing text-xs"
           >
             Gauge
           </button>
@@ -604,7 +604,7 @@ export default function WidgetSidebar() {
             draggable
             onDragStart={(e) => handleDragStart(e, "progress")}
             onClick={() => addWidget("progress")}
-            className="w-full bg-purple-800 text-white p-1 mb-1 rounded hover:bg-purple-900 transition-colors duration-200 cursor-grab active:cursor-grabbing text-xs"
+            className="w-full bg-purple-800 text-white p-2 mb-1 rounded hover:bg-purple-900 transition-colors duration-200 cursor-grab active:cursor-grabbing text-xs"
           >
             Progress Bar
           </button>
@@ -617,7 +617,7 @@ export default function WidgetSidebar() {
             draggable
             onDragStart={(e) => handleDragStart(e, "image")}
             onClick={() => addWidget("image")}
-            className="w-full bg-orange-500 text-white p-1 mb-1 rounded hover:bg-orange-600 transition-colors duration-200 cursor-grab active:cursor-grabbing text-xs"
+            className="w-full bg-cyan-500 text-white p-2 mb-1 rounded hover:bg-cyan-600 transition-colors duration-200 cursor-grab active:cursor-grabbing text-xs"
           >
             Image
           </button>
@@ -625,7 +625,7 @@ export default function WidgetSidebar() {
             draggable
             onDragStart={(e) => handleDragStart(e, "video")}
             onClick={() => addWidget("video")}
-            className="w-full bg-orange-600 text-white p-1 mb-1 rounded hover:bg-orange-700 transition-colors duration-200 cursor-grab active:cursor-grabbing text-xs"
+            className="w-full bg-cyan-600 text-white p-2 mb-1 rounded hover:bg-cyan-700 transition-colors duration-200 cursor-grab active:cursor-grabbing text-xs"
           >
             Video
           </button>
@@ -638,7 +638,7 @@ export default function WidgetSidebar() {
             draggable
             onDragStart={(e) => handleDragStart(e, "calendar")}
             onClick={() => addWidget("calendar")}
-            className="w-full bg-cyan-600 text-white p-1 mb-1 rounded hover:bg-cyan-700 transition-colors duration-200 cursor-grab active:cursor-grabbing text-xs"
+            className="w-full bg-cyan-600 text-white p-2 mb-1 rounded hover:bg-cyan-700 transition-colors duration-200 cursor-grab active:cursor-grabbing text-xs"
           >
             Calendar
           </button>
@@ -646,7 +646,7 @@ export default function WidgetSidebar() {
             draggable
             onDragStart={(e) => handleDragStart(e, "clock")}
             onClick={() => addWidget("clock")}
-            className="w-full bg-cyan-700 text-white p-1 mb-1 rounded hover:bg-cyan-800 transition-colors duration-200 cursor-grab active:cursor-grabbing text-xs"
+            className="w-full bg-cyan-700 text-white p-2 mb-1 rounded hover:bg-cyan-800 transition-colors duration-200 cursor-grab active:cursor-grabbing text-xs"
           >
             Clock
           </button>
@@ -654,7 +654,7 @@ export default function WidgetSidebar() {
             draggable
             onDragStart={(e) => handleDragStart(e, "weather")}
             onClick={() => addWidget("weather")}
-            className="w-full bg-cyan-800 text-white p-1 mb-1 rounded hover:bg-cyan-900 transition-colors duration-200 cursor-grab active:cursor-grabbing text-xs"
+            className="w-full bg-cyan-800 text-white p-2 mb-1 rounded hover:bg-cyan-900 transition-colors duration-200 cursor-grab active:cursor-grabbing text-xs"
           >
             Weather
           </button>
@@ -667,7 +667,7 @@ export default function WidgetSidebar() {
             draggable
             onDragStart={(e) => handleDragStart(e, "button")}
             onClick={() => addWidget("button")}
-            className="w-full bg-orange-600 text-white p-1 mb-1 rounded hover:bg-orange-700 transition-colors duration-200 cursor-grab active:cursor-grabbing text-xs"
+            className="w-full bg-orange-600 text-white p-2 mb-1 rounded hover:bg-orange-700 transition-colors duration-200 cursor-grab active:cursor-grabbing text-xs"
           >
             Button
           </button>
@@ -675,7 +675,7 @@ export default function WidgetSidebar() {
             draggable
             onDragStart={(e) => handleDragStart(e, "toggle")}
             onClick={() => addWidget("toggle")}
-            className="w-full bg-orange-700 text-white p-1 mb-1 rounded hover:bg-orange-800 transition-colors duration-200 cursor-grab active:cursor-grabbing text-xs"
+            className="w-full bg-orange-700 text-white p-2 mb-1 rounded hover:bg-orange-800 transition-colors duration-200 cursor-grab active:cursor-grabbing text-xs"
           >
             Toggle Switch
           </button>
@@ -683,7 +683,7 @@ export default function WidgetSidebar() {
             draggable
             onDragStart={(e) => handleDragStart(e, "slider")}
             onClick={() => addWidget("slider")}
-            className="w-full bg-orange-800 text-white p-1 mb-1 rounded hover:bg-orange-900 transition-colors duration-200 cursor-grab active:cursor-grabbing text-xs"
+            className="w-full bg-orange-800 text-white p-2 mb-1 rounded hover:bg-orange-900 transition-colors duration-200 cursor-grab active:cursor-grabbing text-xs"
           >
             Slider
           </button>

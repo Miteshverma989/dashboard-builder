@@ -50,7 +50,7 @@ export default function ThemeSwitcher() {
         </div>
       )}
 
-      {/* Seasonal Theme Menu */}
+      {/* Seasonal Theme Menu
       {showThemeMenu && (
         <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-3 text-xs text-gray-600 dark:text-gray-300 min-w-[200px]">
           <div className="font-medium mb-2 text-center">Seasonal Themes</div>
@@ -82,7 +82,7 @@ export default function ThemeSwitcher() {
             </button>
           </div>
         </div>
-      )}
+      )} */}
 
       {/* Theme Switcher Buttons */}
       <div className="flex gap-2">
