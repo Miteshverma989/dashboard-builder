@@ -604,7 +604,7 @@ export default function WidgetSidebar() {
             draggable
             onDragStart={(e) => handleDragStart(e, "progress")}
             onClick={() => addWidget("progress")}
-            className="w-full bg-purple-800 text-white p-2 mb-1 rounded hover:bg-purple-900 transition-colors duration-200 cursor-grab active:cursor-grabbing text-xs"
+            className="w-full bg-cyan-800 text-white p-2 mb-1 rounded hover:bg-cyan-900 transition-colors duration-200 cursor-grab active:cursor-grabbing text-xs"
           >
             Progress Bar
           </button>

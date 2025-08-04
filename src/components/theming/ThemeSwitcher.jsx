@@ -87,7 +87,7 @@ export default function ThemeSwitcher() {
       {/* Theme Switcher Buttons */}
       <div className="flex gap-2">
         {/* Seasonal Theme Button */}
-        <button
+        {/* <button
           onClick={() => setShowThemeMenu(!showThemeMenu)}
           className="p-3 rounded-full bg-white dark:bg-gray-800 shadow-lg hover:shadow-xl transition-all duration-200 border border-gray-200 dark:border-gray-600 hover:scale-105"
           title="Seasonal Themes"
@@ -99,7 +99,7 @@ export default function ThemeSwitcher() {
           ) : (
             <span className="text-lg">🎨</span>
           )}
-        </button>
+        </button> */}
 
         {/* Light/Dark Mode Button */}
         <button

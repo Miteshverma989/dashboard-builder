@@ -593,7 +593,7 @@ export default function Canvas() {
   return (
     <div className="flex-1 relative flex flex-col h-full">
       {/* Clear Canvas Button */}
-      <div className="absolute top-4 right-4 z-10">
+      <div className="absolute bottom-4 right-4 z-10">
         <button
           onClick={clearCanvas}
           className="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-lg shadow-lg transition-colors duration-200 flex items-center gap-2"
